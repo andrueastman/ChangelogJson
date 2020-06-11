@@ -1,0 +1,134 @@
+{
+      "changelog": 
+            [{
+             "changeList": [{
+             "Id": "c9c82815-8e5c-11ea-a76f-c2521b00aa22",
+             "ApiChange": "Resource",
+             "ChangedApiName": "dotoo",
+             "ChangeType": "Addition",
+             "Description": "Added the [dotoo](/graph/api/dotoo?view=graph-rest-beta) resource type",
+             "Target": "dotoo"
+             },
+             {
+             "Id": "c9c9d54d-8e5c-11ea-a76f-c2521b00aa22",
+             "ApiChange": "Resource",
+             "ChangedApiName": "regionalAndLanguageSettings",
+             "ChangeType": "Addition",
+             "Description": "Added the [regionalAndLanguageSettings](/graph/api/regionalAndLanguageSettings?Wview=graph-rest-beta) resource type",
+             "Target": "regionalAndLanguageSettings"
+             },
+             {
+             "Id": "c9cb81be-8e5c-11ea-a76f-c2521b00aa22",
+             "ApiChange": "Resource",
+             "ChangedApiName": "regionalFormatOverrides",
+             "ChangeType": "Addition",
+             "Description": "Added the [regionalFormatOverrides](/graph/api/regionalFormatOverrides?view=graph-rest-beta) resource type",
+             "Target": "regionalFormatOverrides"
+             }
+             ],
+             "Id": "c9c67773-8e5c-11ea-a76f-c2521b00aa22",
+             "CreatedBy": null,
+             "Cloud": "prd",
+             "Version": "v1.0",
+             "CreatedDateTime": "2020-04-04T23:12:56.158Z",
+             "DocPRUrl": null,
+             "WorkloadArea": "Social and workplace intelligence"
+             },
+             {
+             "changeList": [{
+             "Id": "c9b929b0-8e5c-11ea-a76f-c2521b00aa22",
+             "ApiChange": "Member",
+             "ChangedApiName": "pager1",
+             "ChangeType": "Addition",
+             "Description": "Added the `pager1` member to the **phoneType** enumeration",
+             "Target": "phoneType"
+             },
+             {
+             "Id": "c9badc87-8e5c-11ea-a76f-c2521b00aa2",
+             "ApiChange": "Method",
+             "ChangedApiName": "delta1",
+             "ChangeType": "Addition",
+             "Description": "Added the [delta1](/graph/api/user-delta1?view=graph-rest-beta) method to the [user] (/graph/api/resources/user?view=graph-rest-beta) resource",
+             "Target": "user"
+             },
+             {
+             "Id": "c9bc8a8a-8e5c-11ea-a76f-c2521b00aa22",
+             "ApiChange": "Property",
+             "ChangedApiName": "displayName",
+             "ChangeType": "Deletion",
+             "Description": "Removed the **displayName** property from [application](/graph/api/resources/application?view=graph-rest-beta) resource",
+             "Target": "application"
+             },
+             {
+             "Id": "c9be385a-8e5c-11ea-a76f-c2521b00aa22",
+             "ApiChange": "Property",
+             "ChangedApiName": "groupMembershipClaims",
+             "ChangeType": "Change",
+             "Description": "Changed the type of the **groupMembershipClaims** property in the [application](/graph/api/resources/application?view=graph-rest-beta) resource",
+             "Target": "application"
+             },
+             {
+             "Id": "c9bfcab7-8e5c-11ea-a76f-c2521b00aa22",
+             "ApiChange": "Relationship",
+             "ChangedApiName": "claimsMappingPolicies",
+             "ChangeType": "Deletion",
+             "Description": "Removed the **claimsMappingPolicies** relationship from [application](/graph/api/resources/application?view=graph-rest-beta) resource",
+             "Target": "application"
+             },
+             {
+             "Id": "c9c17737-8e5c-11ea-a76f-c2521b00aa22",
+             "ApiChange": "Property",
+             "ChangedApiName": "createdByAppId",
+             "ChangeType": "Deletion",
+             "Description": "Removed the **createdByAppId** property from [group](/graph/api/resources/group?view=graph-rest-beta) resource",
+             "Target": "group"
+             }
+             {
+             "Id": "c9c3259f-8e5c-11ea-a76f-c2521b00aa22",
+             "ApiChange": "Property",
+             "ChangedApiName": "expirationDateTime",
+             "ChangeType": "Deletion",
+             "Description": "Removed the **expirationDateTime** property from [group](/graph/api/resources/group?view=graph-rest-beta) resource",
+             "Target": "group"
+             }
+             ],
+             "Id": "c9b77993-8e5c-11ea-a76f-c2521b00aa22",
+             "CreatedBy": null,
+             "Cloud": "prd",
+             "Version": "beta",
+             "CreatedDateTime": "2020-03-04T23:12:56.060Z",
+             "DocPRUrl": null,
+             "WorkloadArea": "Identity and access (Azure AD)"
+             },
+             {
+             "changeList": [{
+             "Id": "3d6b94e9-8e78-11ea-a5b8-870b98312ae3",
+             "ApiChange": "Relationship",
+             "ChangedApiName": "reviewSets",
+             "ChangeType": "Addition",
+             "Description": "Added the **reviewSets** relationship to [ediscoveryCase](/graph/api/resources/ediscoveryCase?view=graph-rest-beta) resource",
+             "Target": "ediscoveryCase"
+             }, {
+             "Id": "3d6d4211-8e78-11ea-a5b8-870b98312ae3",
+             "ApiChange": "Resource",
+             "ChangedApiName": "reviewSet",
+             "ChangeType": "Addition",
+             "Description": "Added the [reviewSet](/graph/api/reviewSet?view=graph-rest-beta) resource type",
+             "Target": "reviewSet"
+             }, {
+             "Id": "3d6ef027-8e78-11ea-a5b8-870b98312ae3",
+             "ApiChange": "Resource",
+             "ChangedApiName": "reviewSetQuery",
+             "ChangeType": "Addition",
+             "Description": "Added the [reviewSetQuery](/graph/api/reviewSetQuery?view=graph-rest-beta) resource type",
+             "Target": "reviewSetQuery"
+             }],
+             "Id": "3d69e710-8e78-11ea-a5b8-870b98312ae3",
+             "CreatedBy": null,
+             "Cloud": "prd",
+             "Version": "beta",
+             "CreatedDateTime": "2020-05-05T02:29:26.579Z",
+             "DocPRUrl": null,
+             "WorkloadArea": "Compliance Ediscovery"
+             }]
+        }
