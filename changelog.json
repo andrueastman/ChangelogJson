@@ -82,7 +82,7 @@
                    "ChangeType": "Deletion",
                    "Description": "Removed the **createdByAppId** property from [group](/graph/api/resources/group?view=graph-rest-beta) resource",
                    "Target": "group"
-                   }
+                   },
                    {
                    "Id": "c9c3259f-8e5c-11ea-a76f-c2521b00aa22",
                    "ApiChange": "Property",
