@@ -1,137 +1,146 @@
 {
-      "changelog": 
-            [{
-             "changeList": [{
-                   "Id": "c9c82815-8e5c-11ea-a76f-c2521b00aa22",
-                   "ApiChange": "Resource",
-                   "ChangedApiName": "dotoo",
-                   "ChangeType": "Addition",
-                   "Description": "Added the [dotoo](/graph/api/dotoo?view=graph-rest-beta) resource type",
-                   "Target": "dotoo"
-                   },
-                   {
-                   "Id": "c9c9d54d-8e5c-11ea-a76f-c2521b00aa22",
-                   "ApiChange": "Resource",
-                   "ChangedApiName": "regionalAndLanguageSettings",
-                   "ChangeType": "Addition",
-                   "Description": "Added the [regionalAndLanguageSettings](/graph/api/regionalAndLanguageSettings?Wview=graph-rest-beta) resource type",
-                   "Target": "regionalAndLanguageSettings"
-                   },
-                   {
-                   "Id": "c9cb81be-8e5c-11ea-a76f-c2521b00aa22",
-                   "ApiChange": "Resource",
-                   "ChangedApiName": "regionalFormatOverrides",
-                   "ChangeType": "Addition",
-                   "Description": "Added the [regionalFormatOverrides](/graph/api/regionalFormatOverrides?view=graph-rest-beta) resource type",
-                   "Target": "regionalFormatOverrides"
-                  }
-             ],
-             "Id": "c9c67773-8e5c-11ea-a76f-c2521b00aa22",
-             "CreatedBy": null,
-             "Cloud": "prd",
-             "Version": "v1.0",
-             "CreatedDateTime": "2020-04-04T23:12:56.158Z",
-             "DocPRUrl": null,
-             "WorkloadArea": "Social and workplace intelligence"
-             },
-             {
-             "changeList": [{
-                   "Id": "c9b929b0-8e5c-11ea-a76f-c2521b00aa22",
-                   "ApiChange": "Member",
-                   "ChangedApiName": "pager1",
-                   "ChangeType": "Addition",
-                   "Description": "Added the `pager1` member to the **phoneType** enumeration",
-                   "Target": "phoneType"
-                   },
-                   {
-                   "Id": "c9badc87-8e5c-11ea-a76f-c2521b00aa2",
-                   "ApiChange": "Method",
-                   "ChangedApiName": "delta1",
-                   "ChangeType": "Addition",
-                   "Description": "Added the [delta1](/graph/api/user-delta1?view=graph-rest-beta) method to the [user] (/graph/api/resources/user?view=graph-rest-beta) resource",
-                   "Target": "user"
-                   },
-                   {
-                   "Id": "c9bc8a8a-8e5c-11ea-a76f-c2521b00aa22",
-                   "ApiChange": "Property",
-                   "ChangedApiName": "displayName",
-                   "ChangeType": "Deletion",
-                   "Description": "Removed the **displayName** property from [application](/graph/api/resources/application?view=graph-rest-beta) resource",
-                   "Target": "application"
-                   },
-                   {
-                   "Id": "c9be385a-8e5c-11ea-a76f-c2521b00aa22",
-                   "ApiChange": "Property",
-                   "ChangedApiName": "groupMembershipClaims",
-                   "ChangeType": "Change",
-                   "Description": "Changed the type of the **groupMembershipClaims** property in the [application](/graph/api/resources/application?view=graph-rest-beta) resource",
-                   "Target": "application"
-                   },
-                   {
-                   "Id": "c9bfcab7-8e5c-11ea-a76f-c2521b00aa22",
-                   "ApiChange": "Relationship",
-                   "ChangedApiName": "claimsMappingPolicies",
-                   "ChangeType": "Deletion",
-                   "Description": "Removed the **claimsMappingPolicies** relationship from [application](/graph/api/resources/application?view=graph-rest-beta) resource",
-                   "Target": "application"
-                   },
-                   {
-                   "Id": "c9c17737-8e5c-11ea-a76f-c2521b00aa22",
-                   "ApiChange": "Property",
-                   "ChangedApiName": "createdByAppId",
-                   "ChangeType": "Deletion",
-                   "Description": "Removed the **createdByAppId** property from [group](/graph/api/resources/group?view=graph-rest-beta) resource",
-                   "Target": "group"
-                   },
-                   {
-                   "Id": "c9c3259f-8e5c-11ea-a76f-c2521b00aa22",
-                   "ApiChange": "Property",
-                   "ChangedApiName": "expirationDateTime",
-                   "ChangeType": "Deletion",
-                   "Description": "Removed the **expirationDateTime** property from [group](/graph/api/resources/group?view=graph-rest-beta) resource",
-                   "Target": "group"
-                   }
+      "changelog": [
+            {
+                  "ChangeList": [
+                        {
+                              "Id": "922a40b6-ac17-11ea-98c9-0b63dcd470da",
+                              "ApiChange": "Property",
+                              "ChangedApiName": "pendingOperations",
+                              "ChangeType": "Addition",
+                              "Description": "Added the **pendingOperations** property to [driveItem](/graph/api/resources/driveItem?view=graph-rest-1.0) resource",
+                              "Target": "driveItem"
+                        },
+                        {
+                              "Id": "922d9d3e-ac17-11ea-98c9-0b63dcd470da",
+                              "ApiChange": "Property",
+                              "ChangedApiName": "fileSize",
+                              "ChangeType": "Addition",
+                              "Description": "Added the **fileSize** property to [driveItemUploadableProperties](/graph/api/resources/driveItemUploadableProperties?view=graph-rest-1.0) resource",
+                              "Target": "driveItemUploadableProperties"
+                        },
+                        {
+                              "Id": "922f4fbf-ac17-11ea-98c9-0b63dcd470da",
+                              "ApiChange": "Property",
+                              "ChangedApiName": "sha256Hash",
+                              "ChangeType": "Addition",
+                              "Description": "Added the **sha256Hash** property to [hashes](/graph/api/resources/hashes?view=graph-rest-1.0) resource",
+                              "Target": "hashes"
+                        },
+                        {
+                              "Id": "9230f9d9-ac17-11ea-98c9-0b63dcd470da",
+                              "ApiChange": "Property",
+                              "ChangedApiName": "orientation",
+                              "ChangeType": "Addition",
+                              "Description": "Added the **orientation** property to [photo](/graph/api/resources/photo?view=graph-rest-1.0) resource",
+                              "Target": "photo"
+                        },
+                        {
+                              "Id": "9232a56a-ac17-11ea-98c9-0b63dcd470da",
+                              "ApiChange": "Property",
+                              "ChangedApiName": "storagePlanInformation",
+                              "ChangeType": "Addition",
+                              "Description": "Added the **storagePlanInformation** property to [quota](/graph/api/resources/quota?view=graph-rest-1.0) resource",
+                              "Target": "quota"
+                        },
+                        {
+                              "Id": "923454fa-ac17-11ea-98c9-0b63dcd470da",
+                              "ApiChange": "Resource",
+                              "ChangedApiName": "geolocationColumn",
+                              "ChangeType": "Addition",
+                              "Description": "Added the [geolocationColumn](/graph/api/resources/geolocationColumn?view=graph-rest-1.0) resource type",
+                              "Target": "geolocationColumn"
+                        },
+                        {
+                              "Id": "923602ad-ac17-11ea-98c9-0b63dcd470da",
+                              "ApiChange": "Resource",
+                              "ChangedApiName": "pendingContentUpdate",
+                              "ChangeType": "Addition",
+                              "Description": "Added the [pendingContentUpdate](/graph/api/resources/pendingContentUpdate?view=graph-rest-1.0) resource type",
+                              "Target": "pendingContentUpdate"
+                        },
+                        {
+                              "Id": "9237b052-ac17-11ea-98c9-0b63dcd470da",
+                              "ApiChange": "Resource",
+                              "ChangedApiName": "pendingOperations",
+                              "ChangeType": "Addition",
+                              "Description": "Added the [pendingOperations](/graph/api/resources/pendingOperations?view=graph-rest-1.0) resource type",
+                              "Target": "pendingOperations"
+                        },
+                        {
+                              "Id": "92395c65-ac17-11ea-98c9-0b63dcd470da",
+                              "ApiChange": "Resource",
+                              "ChangedApiName": "storagePlanInformation",
+                              "ChangeType": "Addition",
+                              "Description": "Added the [storagePlanInformation](/graph/api/resources/storagePlanInformation?view=graph-rest-1.0) resource type",
+                              "Target": "storagePlanInformation"
+                        },
+                        {
+                              "Id": "923b0a4d-ac17-11ea-98c9-0b63dcd470da",
+                              "ApiChange": "Parameter",
+                              "ChangedApiName": "deferCommit",
+                              "ChangeType": "Addition",
+                              "Description": "Added the **deferCommit** parameter to the [createUploadSession](/graph/api/driveItem-createUploadSession?view=graph-rest-1.0) method",
+                              "Target": "createUploadSession"
+                        },
+                        {
+                              "Id": "923cb8dc-ac17-11ea-98c9-0b63dcd470da",
+                              "ApiChange": "Method",
+                              "ChangedApiName": "restore",
+                              "ChangeType": "Addition",
+                              "Description": "Added the [restore](/graph/api/driveItem-restore?view=graph-rest-1.0) method to the [driveItem](/graph/api/resources/driveItem?view=graph-rest-1.0) resource",
+                              "Target": "driveItem"
+                        },
+                        {
+                              "Id": "923e43ca-ac17-11ea-98c9-0b63dcd470da",
+                              "ApiChange": "Method",
+                              "ChangedApiName": "validatePermission",
+                              "ChangeType": "Addition",
+                              "Description": "Added the [validatePermission](/graph/api/driveItem-validatePermission?view=graph-rest-1.0) method to the [driveItem](/graph/api/resources/driveItem?view=graph-rest-1.0) resource",
+                              "Target": "driveItem"
+                        }
                   ],
-             "Id": "c9b77993-8e5c-11ea-a76f-c2521b00aa22",
-             "CreatedBy": null,
-             "Cloud": "prd",
-             "Version": "beta",
-             "CreatedDateTime": "2020-03-04T23:12:56.060Z",
-             "DocPRUrl": null,
-             "WorkloadArea": "Identity and access (Azure AD)"
-             },
-             {
-             "changeList": [
-                  {
-                   "Id": "3d6b94e9-8e78-11ea-a5b8-870b98312ae3",
-                   "ApiChange": "Relationship",
-                   "ChangedApiName": "reviewSets",
-                   "ChangeType": "Addition",
-                   "Description": "Added the **reviewSets** relationship to [ediscoveryCase](/graph/api/resources/ediscoveryCase?view=graph-rest-beta) resource",
-                   "Target": "ediscoveryCase"
-                   }, {
-                   "Id": "3d6d4211-8e78-11ea-a5b8-870b98312ae3",
-                   "ApiChange": "Resource",
-                   "ChangedApiName": "reviewSet",
-                   "ChangeType": "Addition",
-                   "Description": "Added the [reviewSet](/graph/api/reviewSet?view=graph-rest-beta) resource type",
-                   "Target": "reviewSet"
-                   }, {
-                   "Id": "3d6ef027-8e78-11ea-a5b8-870b98312ae3",
-                   "ApiChange": "Resource",
-                   "ChangedApiName": "reviewSetQuery",
-                   "ChangeType": "Addition",
-                   "Description": "Added the [reviewSetQuery](/graph/api/reviewSetQuery?view=graph-rest-beta) resource type",
-                   "Target": "reviewSetQuery"
-                   }
-             ],
-             "Id": "3d69e710-8e78-11ea-a5b8-870b98312ae3",
-             "CreatedBy": null,
-             "Cloud": "prd",
-             "Version": "beta",
-             "CreatedDateTime": "2020-05-05T02:29:26.579Z",
-             "DocPRUrl": null,
-             "WorkloadArea": "Compliance Ediscovery"
-            }          
-       ]      
+                  "Id": "9225fbf0-ac17-11ea-98c9-0b63dcd470da",
+                  "Cloud": "prd",
+                  "Version": "v1.0",
+                  "CreatedDateTime": "2020-06-11T19:13:02.440Z",
+                  "WorkloadArea": "Files (OneDrive for Business and OneDrive Personal)",
+                  "SubArea": ""
+            },
+            {
+                  "ChangeList": [
+                        {
+                              "Id": "9227b3fd-ac17-11ea-98c9-0b63dcd470da",
+                              "ApiChange": "Property",
+                              "ChangedApiName": "geolocation",
+                              "ChangeType": "Addition",
+                              "Description": "Added the **geolocation** property to [columnDefinition](/graph/api/resources/columnDefinition?view=graph-rest-1.0) resource",
+                              "Target": "columnDefinition"
+                        }
+                  ],
+                  "Id": "9225fbf0-ac17-11ea-98c9-0b63dcd470da",
+                  "Cloud": "prd",
+                  "Version": "v1.0",
+                  "CreatedDateTime": "2020-06-11T19:13:02.440Z",
+                  "WorkloadArea": "Users",
+                  "SubArea": ""
+            },
+            {
+                  "ChangeList": [
+                        {
+                              "Id": "922bf088-ac17-11ea-98c9-0b63dcd470da",
+                              "ApiChange": "Property",
+                              "ChangedApiName": "name",
+                              "ChangeType": "Addition",
+                              "Description": "Added the **name** property to [contentTypeInfo](/graph/api/resources/contentTypeInfo?view=graph-rest-1.0) resource",
+                              "Target": "contentTypeInfo"
+                        }
+                  ],
+                  "Id": "9225fbf0-ac17-11ea-98c9-0b63dcd470da",
+                  "Cloud": "prd",
+                  "Version": "v1.0",
+                  "CreatedDateTime": "2020-06-11T19:13:02.440Z",
+                  "WorkloadArea": "Groups",
+                  "SubArea": ""
+            }
+      ]
 }
